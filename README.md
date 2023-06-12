@@ -50,7 +50,7 @@ docker build -t social-media-api .
 ```
 - Run the Docker container:
 ```bash
-docker run -p 8000:8000 social-media-api
+docker-compose up
 ```
 
 5. Access the API endpoints at 'http://localhost:8000/'
